@@ -1,4 +1,4 @@
-##**Introduction**
+## **Introduction**
 
 In Thailand, sunscreen has always been an integral part of any skincare routine. With the emergence of self-care culture, there has never been a more beneficial time to enter the sun protection market and capitalize on skincare popularity. The goal of this project is to forecast the search count for ‘ครีมกันแดด’ on Google, which we interpret as as a proxy for Thai consumer interest in sunscreen throughout the time period. The results can be used by companies selling sun protection to gauge which time of the year is best to launch targeted advertisements and marketing campaigns for sunscreen, to increase product sales and the generated revenue.
 
