@@ -849,7 +849,7 @@ We will check whether the residuals of this model behave like white noise or not
 2. The variance is constant over time
 3. Uncorrelated in time
 
-    ```
+```
 plot(model$residuals,main='Residual plot by SARIMA(0,1,2)(2,1,0)(12)')
 abline(h=0,lty = 2,col='red')
 ```
