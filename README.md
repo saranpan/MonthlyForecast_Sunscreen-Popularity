@@ -1011,17 +1011,12 @@ plot(forc, main='Forecast in next 60 months by SARIMA(0,1,2)(0,1,1)(12)')
 
 
 
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![15](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/15.png?raw=true)
 
 
 **Figure 16 : Forecast of the next 12 months**
 
 
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![16](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/16.png?raw=true)
