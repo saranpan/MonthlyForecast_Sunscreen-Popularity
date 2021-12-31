@@ -4,7 +4,7 @@ In Thailand, sunscreen has always been an integral part of any skincare routine.
 
 **Data**
 
-**	**Our dataset contains information regarding the frequency in which ‘ครีมกันแดด’ is looked up on Google each month from January 2009 to December 2021. The data is extracted from Google Trends via the following link:
+Our dataset contains information regarding the frequency in which ‘ครีมกันแดด’ is looked up on Google each month from January 2009 to December 2021. The data is extracted from Google Trends via the following link:
 
 [https://trends.google.co.th/trends/explore?date=2008-12-12%202021-12-12&geo=TH&q=%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94](https://trends.google.co.th/trends/explore?date=2008-12-12%202021-12-12&geo=TH&q=%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94)
 
@@ -77,7 +77,7 @@ plot(df.ts,main ='Monthly searches "Sunscreen" (2009-2021) ',
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image1.png "image_tooltip")
+![0](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/0.png?raw=true)
 
 
 **Figure 1 : The monthly searches sunscreen (2009-2021)**
@@ -98,7 +98,7 @@ plot(aggregate(df.ts,FUN='mean'),main ='Annual mean of searches "Sunscreen" (200
 <p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image2.png "image_tooltip")
+![1](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/1.png?raw=true)
 
 
 **Figure 2 : Annual mean of searches "Sunscreen" (2009-2021)**
@@ -115,7 +115,7 @@ boxplot(df.ts ~ cycle(df.ts),main ='Popularity of each month',
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image3.png "image_tooltip")
+![2](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/2.png?raw=true)
 
 
 **Figure 3 : Box plot for each month (2009-2021)**
@@ -139,8 +139,7 @@ plot(df1822)
 <p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image4.png "image_tooltip")
-
+![3](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/3.png?raw=true)
 
 **Figure 4 : Explicitly monthly searches sunscreen (2009-2021)**
 
@@ -160,7 +159,7 @@ boxplot(df1822~cycle(df1822),main="2018-2022",ylim = c(0, 100))
 <p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image5.png "image_tooltip")
+![4](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/4.png?raw=true)
 
 
 **Figure 5 : Explicitly Boxplot (2009-2021)**
@@ -254,12 +253,7 @@ Pacf(df.ts,main='PACF',lag.max=156/4)
 ```
 
 
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
+![5](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/5.png?raw=true)
 
 
 **Figure 6 : ACF & PACF of the time series data**
@@ -353,12 +347,7 @@ abline(h=0,lty = 2,col='red')
 ```
 
 
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
+![6](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/6.png?raw=true)
 
 
 **Figure 7 :Order Differencing**
@@ -378,13 +367,7 @@ Acf(df.ts.diff,main='[1st diff] ACF',lag.max=156/4)
 Pacf(df.ts.diff,main='[1st diff] PACF',lag.max=156/4)
 ```
 
-
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
+![7](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/7.png?raw=true)
 
 
 **Figure 8 :ACF and PACF of first order differencing**
@@ -885,13 +868,7 @@ abline(h=0,lty = 2,col='red')
 ```
 
 
-
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
+![8](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/8.png?raw=true)
 
 
 **Figure 9 :Residual plot of SARIMA(0,1,2)(0,1,1)[12]**
@@ -909,7 +886,7 @@ hist(model$residuals)
 <p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image10.png "image_tooltip")
+![9](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/9.png?raw=true)
 
 
 ** Figure 10 :Histogram of Residual plot of SARIMA(0,1,2)(0,1,1)[12]**
@@ -927,8 +904,7 @@ Acf(model$residuals,lag.max = 156/4, main='ACF plot of residual'))
 <p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image11.png "image_tooltip")
-
+![10](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/10.png?raw=true)
 
 ** Figure 11 :ACF plot of Residual of SARIMA(0,1,2)(0,1,1)[12]**
 
@@ -983,10 +959,7 @@ tsdiag(model, gof.lag=156/4 ,which=3)
 
 
 
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
+![11](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/11.png?raw=true)
 
 
 **Figure 12 :Ljung Box test**
@@ -1001,12 +974,7 @@ tsdiag(model)
 ```
 
 
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image13.png "image_tooltip")
+![12](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/12.png?raw=true)
 
 
 **Figure 13 :Diagnosis of SARIMA(0,1,2)(0,1,1)[12]**
@@ -1024,12 +992,7 @@ legend(2010, 90, legend=c("Actual", "Prediction"),
 ```
 
 
-
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image14.png "image_tooltip")
+![13](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/13.png?raw=true)
 
 
 **Figure 14 :Fitted SARIMA(0,1,2)(0,1,1)(12)  model**
@@ -1053,10 +1016,8 @@ plot(forc, main='Forecast in next 60 months by SARIMA(0,1,2)(0,1,1)(12)')
 
 
 
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/image15.png "image_tooltip")
+![14](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/14.png?raw=true)
 
 
 **Figure 15 : Forecast of the next 6 months**
@@ -1066,7 +1027,7 @@ plot(forc, main='Forecast in next 60 months by SARIMA(0,1,2)(0,1,1)(12)')
 <p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image16.png "image_tooltip")
+![15](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/15.png?raw=true)
 
 
 **Figure 16 : Forecast of the next 12 months**
@@ -1076,7 +1037,7 @@ plot(forc, main='Forecast in next 60 months by SARIMA(0,1,2)(0,1,1)(12)')
 <p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image17.png "image_tooltip")
+![16](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/16.png?raw=true)
 
 
 **Figure 17 : Forecast of the next 60 months**
