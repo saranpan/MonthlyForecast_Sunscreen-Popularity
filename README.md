@@ -1251,7 +1251,7 @@ Just use (θ1  θ2  Θ1  )  = (0.2002, 0.0533 ,0.7456) instead of (0.3748,0.2363
 
 ## **Conclusion**
 
-	We have demonstrated how the search count of the term ‘ครีมกันแดด’ on Google could be analyzed, and have forecasted the search count for the next six months, January 2022 to June 2022, using the model with the lowest AIC value, SARIMA(0,1,2)(0,1,1)(12). We hope our findings can aid in gauging the popularity of sunscreen, and help skincare companies launch more effective and timely marketing campaigns to increase their sun protection sales.
+We have demonstrated how the search count of the term ‘ครีมกันแดด’ on Google could be analyzed, and have forecasted the search count for the next six months, January 2022 to June 2022, using the model with the lowest AIC value, SARIMA(0,1,2)(0,1,1)(12). We hope our findings can aid in gauging the popularity of sunscreen, and help skincare companies launch more effective and timely marketing campaigns to increase their sun protection sales.
 
 ## **References**
 
