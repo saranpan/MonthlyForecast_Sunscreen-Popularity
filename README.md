@@ -1,8 +1,11 @@
-## **Introduction**
+![](https://ncifrederick.cancer.gov/about/theposter/sites/default/files/sunscreen-fun.jpg)
+
+
+**Introduction**
 
 In Thailand, sunscreen has always been an integral part of any skincare routine. With the emergence of self-care culture, there has never been a more beneficial time to enter the sun protection market and capitalize on skincare popularity. The goal of this project is to forecast the search count for ‘ครีมกันแดด’ on Google, which we interpret as as a proxy for Thai consumer interest in sunscreen throughout the time period. The results can be used by companies selling sun protection to gauge which time of the year is best to launch targeted advertisements and marketing campaigns for sunscreen, to increase product sales and the generated revenue.
 
-## **Data**
+**Data**
 
 Our dataset contains information regarding the frequency in which ‘ครีมกันแดด’ is looked up on Google each month from January 2009 to December 2021. The data is extracted from Google Trends via the following link:
 
@@ -25,7 +28,7 @@ Google Trends data removes all personally identifying information. Moreover, it 
 
 	For this project, we defined a quarter as a period of 3 months from January 2009 to December 2021. There are 52 quarters and 156 months. 
 
-## **Project Set Up**
+**Project Set Up**
 
 The following R code is how we prepare and set up the environment for this project.
 
@@ -44,7 +47,7 @@ df.ts = ts(Sunscreen..Thailand. ,
 
 Remark: We set frequency to 12 as one year has 12 months
 
-## **Exploratory Data Analysis (EDA)**
+**Exploratory Data Analysis (EDA)**
 
 First, we will examine the descriptive statistics of the data for the entire period of time between January 2009 to December 2021.
 
@@ -153,7 +156,7 @@ boxplot(df1822~cycle(df1822),main="2018-2022",ylim = c(0, 100))
 
 To consolidate our proof that the data is seasonal, we use figure 5 to demonstrate that the data is increasing- the popularity of sunscreen increases throughout the years. However, the distribution of search count, left skewed normal distribution, remains constant for every time period.
 
-## **Model Selection**
+**Model Selection**
 
 We are interested in using an ARIMA model to forecast the search count of ‘ครีมกันแดด’ in Thailand. There are** **5** **potential models, as follows:
 
@@ -1011,12 +1014,17 @@ plot(forc, main='Forecast in next 60 months by SARIMA(0,1,2)(0,1,1)(12)')
 
 
 
+<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
 ![15](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/15.png?raw=true)
 
 
 **Figure 16 : Forecast of the next 12 months**
 
 
+
+<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![16](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/16.png?raw=true)
@@ -1249,11 +1257,11 @@ Just use (θ1  θ2  Θ1  )  = (0.2002, 0.0533 ,0.7456) instead of (0.3748,0.2363
 ```
 
 
-## **Conclusion**
+**Conclusion**
 
-We have demonstrated how the search count of the term ‘ครีมกันแดด’ on Google could be analyzed, and have forecasted the search count for the next six months, January 2022 to June 2022, using the model with the lowest AIC value, SARIMA(0,1,2)(0,1,1)(12). We hope our findings can aid in gauging the popularity of sunscreen, and help skincare companies launch more effective and timely marketing campaigns to increase their sun protection sales.
+	We have demonstrated how the search count of the term ‘ครีมกันแดด’ on Google could be analyzed, and have forecasted the search count for the next six months, January 2022 to June 2022, using the model with the lowest AIC value, SARIMA(0,1,2)(0,1,1)(12). We hope our findings can aid in gauging the popularity of sunscreen, and help skincare companies launch more effective and timely marketing campaigns to increase their sun protection sales.
 
-## **References**
+**References**
 
 Google Trend of ‘ครีมกันแดด’. Retrieved December 12, 2021, from [https://trends.google.co.th/trends/explore?date=2008-12-12%202021-12-12&geo=TH&q=%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94](https://trends.google.co.th/trends/explore?date=2008-12-12%202021-12-12&geo=TH&q=%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94)
 
@@ -1261,7 +1269,7 @@ FAQ about Google Trends data. (n.d.). Retrieved December 14, 2021, from [https:/
 
 Rogers, S. (2016, July 1). _What is Google Trends data - and what does it mean?_ Medium. Retrieved December 14, 2021, from https://medium.com/google-news-lab/what-is-google-trends-data-and-what-does-it-mean-b48f07342ee8. 
 
-##**Participation Declaration**
+**Participation Declaration**
 
 <span style="text-decoration:underline;">6205593 Kanitnuch Kerdted</span>: Reported the patterns of all ACF and PACF plots. Wrote the introduction, conclusion, and edited the overall report.
 
