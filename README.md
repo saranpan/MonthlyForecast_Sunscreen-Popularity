@@ -44,7 +44,7 @@ df.ts = ts(Sunscreen..Thailand. ,
 
 Remark: We set frequency to 12 as one year has 12 months
 
-##**Exploratory Data Analysis (EDA)**
+## **Exploratory Data Analysis (EDA)**
 
 First, we will examine the descriptive statistics of the data for the entire period of time between January 2009 to December 2021.
 
