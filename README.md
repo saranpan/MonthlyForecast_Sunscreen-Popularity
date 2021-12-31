@@ -74,9 +74,6 @@ plot(df.ts,main ='Monthly searches "Sunscreen" (2009-2021) ',
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![0](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/0.png?raw=true)
 
 
@@ -95,8 +92,6 @@ plot(aggregate(df.ts,FUN='mean'),main ='Annual mean of searches "Sunscreen" (200
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![1](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/1.png?raw=true)
 
@@ -111,8 +106,6 @@ boxplot(df.ts ~ cycle(df.ts),main ='Popularity of each month',
 
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![2](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/2.png?raw=true)
@@ -136,9 +129,6 @@ plot(df1822)
 
 
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![3](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/3.png?raw=true)
 
 **Figure 4 : Explicitly monthly searches sunscreen (2009-2021)**
@@ -154,9 +144,6 @@ boxplot(df1822~cycle(df1822),main="2018-2022",ylim = c(0, 100))
 ```
 
 
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![4](https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity/blob/main/img/4.png?raw=true)
