@@ -1269,10 +1269,10 @@ FAQ about Google Trends data. (n.d.). Retrieved December 14, 2021, from [https:/
 
 Rogers, S. (2016, July 1). _What is Google Trends data - and what does it mean?_ Medium. Retrieved December 14, 2021, from https://medium.com/google-news-lab/what-is-google-trends-data-and-what-does-it-mean-b48f07342ee8. 
 
-**Participation Declaration**
+**Contributors**
 
-<span style="text-decoration:underline;">6205593 Kanitnuch Kerdted</span>: Reported the patterns of all ACF and PACF plots. Wrote the introduction, conclusion, and edited the overall report.
+<span style="text-decoration:underline;">Saran Pannasuriyaporn</span>: Performed EDA, built the models, and analyzed the results. Wrote the report.
 
-<span style="text-decoration:underline;">6205609 Saran Pannasuriyaporn</span>: Performed EDA, built the models, and analyzed the results. Wrote the report.
+<span style="text-decoration:underline;">Kanitnuch Kerdted</span>: Reported the patterns of all ACF and PACF plots. Wrote the introduction, conclusion, and edited the overall report.
 
-<span style="text-decoration:underline;">6205712 Pornnapa Songsiripun</span>: Found and reported AIC for the ARIMA models.
+<span style="text-decoration:underline;">Pornnapa Songsiripun</span>: Found and reported AIC for the ARIMA models.
